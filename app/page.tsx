@@ -87,8 +87,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Pricing 
-        buttonTitle="Register Now"
+        <Pricing
         />
 
         
