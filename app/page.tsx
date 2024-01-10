@@ -6,8 +6,9 @@ import Link from "next/link";
 import Logo from "../public/logo.svg";
 import Robert from "../public/robert.png";
 import Jake from "../public/Jake.png";
-import { Button } from "@material-tailwind/react";
+import { Button } from "./components/mtwexport";
 import { bungee } from "./ui/fonts";
+import Pricing from "./components/Pricing";
 
 export default function Home() {
   return (
@@ -86,26 +87,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-around p-8 items-center border-solid rounded border-2 max-w-lg md:max-w-2xl mx-auto">
-          <div>
-            <p className="text-gray-50 text-lg md:text-xl font-bold ">
-              February 10, 2024 | 3:00 PM
-            </p>
-            <p className="text-gray-50 text-lg md:text-xl font-bold ">
-              via Zoom
-            </p>
-            <p className="text-gray-50 text-lg md:text-xl font-bold ">
-              Ticket Price: Php 500
-            </p>
-          </div>
-          <div>
-            <Link href="https://forms.gle/ua7Rp4n1dnWgJhNH9">
-              <button className="bg-gray-50 px-8 py-4 rounded-full hover:bg-gray-800 hover:border-1 border-slate-50">
-                Register Now
-              </button>
-            </Link>
-          </div>
-        </div>
+        <Pricing 
+        buttonTitle="Register Now"
+        />
+
+        
       </div>
     </>
   );
