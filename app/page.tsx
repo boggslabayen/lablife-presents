@@ -12,10 +12,7 @@ import { bungee } from "./ui/fonts";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Lab is Life | Home</title>
-        <meta name="keywords" content="creatives"/>
-      </Head>
+      
       <div className=" mx-auto max-w-screen-xl my-10">
         <div className="pb-8">
           <Image
