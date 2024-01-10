@@ -1,4 +1,4 @@
-import { Kanit, Nunito } from 'next/font/google';
+import { Quicksand } from 'next/font/google';
 import type { Config } from 'tailwindcss'
 
 const withMT = require("@material-tailwind/react/utils/withMT");
@@ -20,9 +20,7 @@ const config: Config = withMT({
         'lablife-purple': 'hsla(324, 49%, 33%, 1);',
       }
     },
-    fontFamily: {
-      'serif': ['Kanit', 'Nunito Sans' ],
-    }
+
   },
   plugins: [],
 });

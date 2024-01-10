@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const nunitosans = Nunito_Sans({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Lablife Presents: The Safe place for Ideas',
-  description: 'a captivating 2-hour journey of creative insights with industry maestros',
-}
+// export const metadata: Metadata = {
+//   title: 'Lablife Presents: The Safe place for Ideas',
+//   description: 'a captivating 2-hour journey of creative insights with industry maestros',
+// }
 
 export default function RootLayout({
   children,
@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href='/public/favicon.ico' sizes="any"/>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={nunitosans.className}>{children}</body>
     </html>
   )
 }
