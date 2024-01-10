@@ -1,6 +1,9 @@
+import { Kanit, Nunito } from 'next/font/google';
 import type { Config } from 'tailwindcss'
 
-const config: Config = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+const config: Config = withMT({
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -13,8 +16,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'lablife-purple': 'hsla(324, 49%, 33%, 1);',
+      }
     },
+    fontFamily: {
+      'serif': ['Kanit', 'Nunito Sans' ],
+    }
   },
   plugins: [],
-}
+});
+
 export default config
