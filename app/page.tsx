@@ -10,6 +10,7 @@ import { Button } from "@material-tailwind/react";
 export default function Home() {
   return (
     <main className="">
+      
       <div className=" mx-auto max-w-screen-xl my-10">
         <div className="pb-8">
           <Image
@@ -92,7 +93,7 @@ export default function Home() {
               February 10, 2024 | 3:00 PM
             </p>
             <p className="text-gray-50 text-lg md:text-xl font-bold ">via Zoom</p>
-            <p className="text-gray-50 text-lg md:text-xl font-bold ">Ticket Price: Php 800</p>
+            <p className="text-gray-50 text-lg md:text-xl font-bold ">Ticket Price: Php 500</p>
           </div>
           <div>
             <Link href= "https://forms.gle/ua7Rp4n1dnWgJhNH9" >
