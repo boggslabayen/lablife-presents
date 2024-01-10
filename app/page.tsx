@@ -25,21 +25,21 @@ export default function Home() {
         </div>
 
         <div className="justify-center flex flex-col">
-          <h1 className="text-gray-50 text-8xl font-serif font-semibold max-w-2xl text-center mx-auto">
+          <h1 className="text-gray-50 text-5xl md:text-8xl font-serif font-semibold max-w-sm md:max-w-2xl text-center mx-auto">
             The safe place for Ideas
           </h1>
-          <h3 className="text-gray-50 text-3xl pt-4 text-center">
+          <h3 className="text-gray-50 text-xl md:text-3xl pt-4 text-center">
             Promoting the Creative Vibe in the Office
           </h3>
         </div>
 
         <div className="mt-16">
           <div className="text-gray-50 text-3xl text-center">
-            <h3 className="font-bold">Speakers:</h3>
+            <h3 className="font-regular md:font-bold">Speakers:</h3>
           </div>
 
           <div
-            className="flex justify-around my-8
+            className="md:flex justify-around my-8 px-8
     "
           >
             <div className="flex py-4 items-center">
@@ -86,23 +86,19 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-around p-8 items-center border-solid rounded border-2">
+        <div className="flex justify-around p-8 items-center border-solid rounded border-2 max-w-lg md:max-w-2xl mx-auto">
           <div>
-            <p className="text-gray-50 text-xl font-bold ">
+            <p className="text-gray-50 text-lg md:text-xl font-bold ">
               February 10, 2024 | 3:00 PM
             </p>
-            <p className="text-gray-50 text-xl font-bold ">via Zoom</p>
-            <p className="text-gray-50 text-xl font-bold ">Ticket Price: Php 800</p>
+            <p className="text-gray-50 text-lg md:text-xl font-bold ">via Zoom</p>
+            <p className="text-gray-50 text-lg md:text-xl font-bold ">Ticket Price: Php 800</p>
           </div>
           <div>
             <Link href= "https://forms.gle/ua7Rp4n1dnWgJhNH9" >
-            <Button
-              variant="Filled"
-              size="lg"
-              className="rounded-full bg-gray-50 text-lablife-purple"
-            >
+            <button className="bg-gray-50 px-8 py-4 rounded-full hover:bg-gray-800 hover:border-1 border-slate-50">
               Register Now
-            </Button>
+            </button>
             </Link>
           </div>
         </div>
