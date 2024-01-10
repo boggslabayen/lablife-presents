@@ -24,8 +24,9 @@ function Pricing(){
 
               <Button 
               variant="filled"
-              size="lg" children={"Registeree"} placeholder={undefined}
+              size="lg"  placeholder={undefined}
               className="bg-gray-50 text-lablife-purple rounded-full hover:bg-purple-500 hover:text-gray-50">
+                {"Register Now"}
               </Button>
             </Link>
           </div>
