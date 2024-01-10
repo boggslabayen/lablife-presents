@@ -1,11 +1,15 @@
 import type { Metadata } from 'next'
 import { Inter} from 'next/font/google' 
 import './globals.css'
+import Logo from '../public/logo.svg'
 
 
 export const metadata: Metadata = {
   title: 'Lablife Presents',
   description: 'Lablife Learning Sessions',
+  icons: {
+    icon: {Logo}
+  }
 }
 
 export const inter = Inter({subsets: ['latin']});
