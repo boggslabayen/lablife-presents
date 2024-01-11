@@ -58,7 +58,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-50">
                   Jake Yrastorza
                 </h3>
-                <p className="text-gray-500">Managing Director</p>
+                <p className="text-gray-500">Managing Partner</p>
                 <p className="text-gray-500 font-semibold">Gigil</p>
               </div>
             </div>
