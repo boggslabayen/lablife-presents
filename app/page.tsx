@@ -27,7 +27,7 @@ export default function Home() {
           <h1
             className={`${bungee.className} text-gray-50 text-3xl md:text-8xl max-w-md md:max-w-4xl font-extralight text-center mx-auto`}
           >
-            We'll be right back! Promise!
+            We will be right back! Promise!
           </h1>
           <div>
             <p className="text-center my-8 text-xl text-gray-50">
